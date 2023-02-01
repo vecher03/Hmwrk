@@ -336,3 +336,9 @@ ul {
 
 
 }
+@media (max-width:360px) {
+    .nav-box-list {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}
